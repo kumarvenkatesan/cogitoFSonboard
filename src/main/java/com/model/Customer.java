@@ -21,7 +21,6 @@ public class Customer {
     @NotNull
     private String lastName;
 
-    @ValidateField(min = 0,max = 25,required = true)
     private String mobile;
 
     private String email;
